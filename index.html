@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+    
+<head>
+        <link rel="Stylesheet" type="text/css" href="index.css" />
+        <link rel="Stylesheet" type="text/css" href="fontello-72906d87/css/fontello.css" />
+        <meta charset="utf-8" />
+        <link href="https://fonts.googleapis.com/css?family=Flamenco|Lato" rel="stylesheet">
+        <title>Pawel Filipek - Portfolio</title>
+
+        <script type="text/javascript">     
+            
+            function odswiezanie(){
+            var czas = new Date();
+            var dzien = czas.getDate();
+            var miesiac = czas.getMonth()+1;
+            var rok = czas.getFullYear();
+
+           
+            var godzina = czas.getHours();
+            if (godzina<10) godzina = "0"+godzina;
+           
+            var minuta = czas.getMinutes();
+            if (minuta<10) minuta = "0"+minuta;
+            
+            var sekunda = czas.getSeconds();
+            if (sekunda<10) sekunda = "0"+sekunda;
+            
+            document.getElementById("zegar").innerHTML = godzina+":"+minuta+":"+sekunda;
+
+                setTimeout("odswiezanie()",1000);
+            }
+
+        </script>
+
+</head>
+<body onload="odswiezanie();">
+
+<div id="container">
+    <div class="rectangle">
+        <div id="logo"><a href="programisa-webowy" class="titlelinkhtml5" >
+            Paweł Filipek
+        </a></div>
+        
+        <div id="zegar">
+            
+        </div>
+        <script type="text/javascript">
+        </script>
+
+        <div style="clear:both">
+        </div>
+    </div>
+
+    <div class="square">
+        <div class="title1">
+            <a href="o-mnie" class="titlelink"><i class="icon-adult"></i><br />O mnie</a>
+        </div>
+        <a href="oferta-www" class="titlelinkhtml5">
+        <div class="title1">
+            <i class="icon-code"><br />Oferta</i>
+        </div>
+        </a>
+        <div style="clear:both"></div>
+        
+        <div class="title2">
+            <a href="cv-administrator-linux" class="titlelink"><i class="icon-graduation-cap"><br />CV</i></a>
+        </div>
+
+        <div class="title3">
+             <a href="kontakt-administrator" class="titlelink"><i class="icon-mail"><br />Kontakt</i></a>
+        </div>
+        <div style="clear:both"></div>
+
+        <div class="title4"><i>"Kiedy stoisz w miejscu – cofasz się"</i>
+            <br />Martin Luther King</div>
+    </div>
+
+    <div class="square">
+        <div class="title5">
+            Tytuł podstrony <br /><br />
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Maecenas purus nunc, sagittis at consectetur quis, suscipit quis turpis. Phasellus sed ullamcorper dui, eu ultricies dolor. 
+            Maecenas ultrices nec augue non efficitur. 
+            Etiam ligula quam, suscipit sit amet commodo ac, suscipit suscipit leo.
+        </div>
+        <div class="youtube">
+            <i class="icon-youtube-play"></i>
+        </div>
+
+        <div class="facebook">
+            <i class="icon-facebook"></i>
+        </div>
+
+        <div class="gplus">
+            <i class="icon-google-plus-circle"></i>
+        </div>
+
+        <div class="flickr">
+            <i class="icon-flickr"></i>
+        </div>
+    </div>
+    
+    <div style="clear:both">
+    </div>
+    
+    <div class="rectangle">
+    2018 &copy Paweł Filipek - Portfolio <i class="icon-mail-alt">pawel.filipek96@gmail.com</i> Making by: <a target="_blank" href="http://pasja-informatyki.pl" class="titlezelent"><i>Mirosław Zelent</i></a>
+    </div>
+
+    <div id="logo">
+    </div>
+
+    <div id="zegar">
+    </div>
+</div>
+
+
+</body>
+</html>
