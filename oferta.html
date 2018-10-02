@@ -1,0 +1,138 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+    
+<head>
+    <link rel="Stylesheet" type="text/css" href="oferta.css" />
+    <link rel="Stylesheet" type="text/css" href="fontello-72906d87/css/fontello.css" />
+    <meta charset="utf-8" />
+    <link href="https://fonts.googleapis.com/css?family=Flamenco|Lato" rel="stylesheet">
+    <title>Pawel Filipek - Portfolio</title>
+
+    <script type="text/javascript">     
+        
+        function odswiezanie(){
+        var czas = new Date();
+        var dzien = czas.getDate();
+        var miesiac = czas.getMonth()+1;
+        var rok = czas.getFullYear();
+
+       
+        var godzina = czas.getHours();
+        if (godzina<10) godzina = "0"+godzina;
+       
+        var minuta = czas.getMinutes();
+        if (minuta<10) minuta = "0"+minuta;
+        
+        var sekunda = czas.getSeconds();
+        if (sekunda<10) sekunda = "0"+sekunda;
+        
+        document.getElementById("zegar").innerHTML = godzina+":"+minuta+":"+sekunda;
+
+            setTimeout("odswiezanie()",1000);
+        }
+
+    </script>
+
+     
+</head>
+<body onload="odswiezanie();">
+
+<div id="container">
+    <div class="rectangle">
+        <div id="logo"><a href="programisa-webowy" class="titlelinkhtml5" >
+            Paweł Filipek
+        </a></div>
+        
+        <div id="zegar">
+        </div>
+        <script type="text/javascript">
+        </script>
+
+        <div style="clear:both">
+        </div>
+       
+    </div>
+
+      <div id="banner">
+    
+        <div id="rectangle_icon">
+            <i class="icon-code"></i>
+        </div>
+        
+        <div id="rectangle_text">
+                Oferta
+        </div>
+    
+        <div style="clear:both">
+        </div>
+    </div>
+    
+    <div class="content">
+        <br />Moja oferta składa się z następujących pozycji:
+        <div class="block">
+            <br />Serwis PC
+            <ul>
+                <li>Odzyskiwanie danych</li>
+                <li>Diagnostyka</li>
+                <li>Konserwacja chłodzenia</li>
+                <li>Naprawa systemu operacyjnego</li>
+            </ul>
+        </div>
+        
+        <div class="block">
+            <img src="serwisant.jpg" class="picture"/>
+        </div>
+        
+        <div class="block">
+            <img src="serwis_komorka.jpg" class="picture" />
+        </div>
+        <div class="block">
+            <br />Naprawa telefonów
+            <ul>
+                <li>Wymiana wyświetlacza</li>
+                <li>Wgrywanie oprogramowania</li>
+                <li>Kopia danych</li>
+                <li>Wymaiana komponentów</li>
+            </ul>
+        </div>
+        
+        <div class="block">
+            <br />Obsługa Linux
+            <ul>
+                <li>Konfiguracja xampp,ftp,smb</li>
+                <li>obsługa konsoli</li>
+                <li>tworzenie segmentów</li>
+                <li>hosting witryn</li>
+            </ul>
+        </div>
+
+        <div class="block">
+            <img src="linux.png" class="picture" />
+        </div>
+        
+        <div class="block">
+            <img src="www.jpg" class="picture" />
+        </div>
+
+        <div class="block">
+            <br />Tworzenie stron internetowych
+            <ul>
+                <li>znajomość HTML5, CSS, Java-Script</li>
+                <li>wykorzystanie ASP.NET</li>
+                <li>pozycjonowanie</li>
+            </ul>
+        </div>
+
+        <div spellcheck="clear:both">
+        </div>
+    </div>
+    
+    <div class="rectangle">
+        2018 &copy Paweł Filipek - Portfolio <i class="icon-mail-alt">pawel.filipek96@gmail.com</i> Making by: <a target="_blank" href="http://pasja-informatyki.pl" class="titlezelent"><i>Mirosław Zelent</i></a>
+    </div>
+
+
+</div>
+
+</body>
+</html>
