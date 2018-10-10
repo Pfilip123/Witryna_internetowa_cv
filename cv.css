@@ -84,6 +84,10 @@ body{
 }
 #cv_description{
     font-size: 15px;
+    text-decoration: none;
+}
+#cv_description:visited{
+    text-decoration: none;
 }
 
     a.titlelink{
@@ -110,6 +114,8 @@ body{
 
     a.titlezelent{
         color: white;
+        width: 162px;
+        height: 162px;
     }
     a.titlezelent:visited{
         color: white;
