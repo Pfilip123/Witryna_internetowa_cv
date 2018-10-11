@@ -32,8 +32,8 @@ body{
 
 #logo{
     float: left;
-    font-family: 'Flamenco', cursive;
-    font-size: 70px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 60px;
     width: 600px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -42,8 +42,8 @@ body{
 
 #zegar{
     float: left;
-    font-family: 'Flamenco', cursive;
-    font-size: 70px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 60px;
     text-align: left;
 }
 
@@ -77,11 +77,19 @@ body{
     width: 490px;
     text-align: center;
     height: 326.52px;
-   font-size: 27px;
+   font-size: 20px;
 }
+
+.block_title{
+    font-size: 35px;
+
+}
+
 ul{
     text-align: left;
-    margin-left: 40px;
+    margin-left: 60px;
+   font-size: 22px;
+   line-height: 150%;
 }
 .picture{
     width: 490px;

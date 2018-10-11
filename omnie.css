@@ -32,8 +32,8 @@ body{
 
 #logo{
     float: left;
-    font-family: 'Flamenco', cursive;
-    font-size: 70px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 60px;
     width: 600px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -42,8 +42,8 @@ body{
 
 #zegar{
     float: left;
-    font-family: 'Flamenco', cursive;
-    font-size: 70px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 60px;
     text-align: left;
 }
 
