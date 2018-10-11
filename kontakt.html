@@ -1,0 +1,112 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+    
+<head>
+    <link rel="Stylesheet" type="text/css" href="kontakt.css" />
+    <link rel="Stylesheet" type="text/css" href="fontello-72906d87/css/fontello.css" />
+    <meta charset="utf-8" />
+    <link href="https://fonts.googleapis.com/css?family=Flamenco|Lato" rel="stylesheet">
+    <title>Pawel Filipek - Portfolio</title>
+
+    <script type="text/javascript">     
+        
+        function odswiezanie(){
+        var czas = new Date();
+        var dzien = czas.getDate();
+        var miesiac = czas.getMonth()+1;
+        var rok = czas.getFullYear();
+
+       
+        var godzina = czas.getHours();
+        if (godzina<10) godzina = "0"+godzina;
+       
+        var minuta = czas.getMinutes();
+        if (minuta<10) minuta = "0"+minuta;
+        
+        var sekunda = czas.getSeconds();
+        if (sekunda<10) sekunda = "0"+sekunda;
+        
+        document.getElementById("zegar").innerHTML = godzina+":"+minuta+":"+sekunda;
+
+            setTimeout("odswiezanie()",1000);
+        }
+
+    </script>
+
+     
+</head>
+<body onload="odswiezanie();">
+
+<div id="container">
+    <div class="rectangle">
+        <div id="logo"><a href="programisa-webowy" class="titlelinkhtml5" >
+            Paweł Filipek
+        </a></div>
+        
+        <div id="zegar">
+        </div>
+        <script type="text/javascript">
+        </script>
+
+        <div style="clear:both">
+        </div>
+       
+    </div>
+
+      <div id="banner">
+    
+        <div id="rectangle_icon">
+            <i class="icon-mail"></i>
+        </div>
+        
+        <div id="rectangle_text">
+                Kontakt
+        </div>
+    
+        <div style="clear:both">
+        </div>
+    </div>
+    
+    <div class="content">
+
+        <center>Skontaktuj się ze mną</center>
+
+        <div class="block">
+                <br />Twoje imię i nazwisko:
+            <input type="text" name="imie_i_nazwisko" />
+            <br />Twój email: 
+            <input type="text" name="email" />
+            <br />Sprawa:
+            <select>
+                <option></option>
+                <option>Zapytanie o usługę</option>
+                <option>Porada zakupu</option>
+                <option>pytanie o status zgłoszenia</option>
+                <option>Inne</option>
+            </select>
+            <br />Opis <br />
+            <textarea name="opis" cols="10" rows="10" ></textarea>
+
+
+            
+
+        </div>
+
+         <div class="block">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d152953.41932433122!2d21.71425786799239!3d50.004256137857375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473d01e3a6bad215%3A0x4c50568c85326e92!2sNockowa+2A%2C+39-124+Nockowa!5e0!3m2!1spl!2spl!4v1539207833451" width="440" height="440" frameborder="0" style="border:0" allowfullscreen></iframe>
+            
+        </div>
+
+        <div spellcheck="clear:both">
+        </div>
+    </div>
+    
+    <div class="rectangle">
+        2018 &copy Paweł Filipek - Portfolio <i class="icon-mail-alt">pawel.filipek96@gmail.com</i> Making by: <a target="_blank" href="http://pasja-informatyki.pl" class="titlezelent"><i>Mirosław Zelent</i></a>
+    </div>
+
+
+</div>
+
+</body>
+</html>
