@@ -2,6 +2,8 @@
 <html lang="pl">
     
 <head>
+        <meta http-equiv="author" content="Paweł Filipek"/>
+        <meta http-equiv="pragma" content="no-cache" />
     <link rel="Stylesheet" type="text/css" href="kontakt.css" />
     <link rel="Stylesheet" type="text/css" href="fontello-72906d87/css/fontello.css" />
     <meta charset="utf-8" />
@@ -72,9 +74,11 @@
 
       <center>Skontaktuj się ze mną</center>  
         <div class="block">
-            Twoje imię i nazwisko:<br />
-            <input type="text" class="formularz" name="imie_i_nazwisko" />
-            <br />Twój email<br />
+            <label for="username">Twoje imię i nazwisko:</label><br />
+             <!--HTML5: weryfikacja imienia i nazwiska po stronie klienta-->
+            <input type="text" class="formularz" name="username"
+             required="required"/>
+            <label for="email"><br />Twój email<br /></label>
             <input type="email" class="formularz" name="email" />
         <br />Sprawa:<br />
             <select>
@@ -93,11 +97,12 @@
 
          <div class="block">
             Dane kontaktowe:<br /><br />
+            <address>
             Pawel Filipek<br />
             Nockwa 2A<br />
             39-124 Iwierzyce<br /><br />
             Telefon:<br />
-            730 537 564
+            730 537 564</address>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d152953.41932433122!2d21.71425786799239!3d50.004256137857375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473d01e3a6bad215%3A0x4c50568c85326e92!2sNockowa+2A%2C+39-124+Nockowa!5e0!3m2!1spl!2spl!4v1539207833451" width="440" height="440" frameborder="0" style="margin-top: 20px;" allowfullscreen></iframe>
             
         </div>
