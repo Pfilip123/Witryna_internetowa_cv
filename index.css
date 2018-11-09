@@ -5,9 +5,9 @@ body{
     font-size: 20px;
 }
 #container{
-    width: 1000px;
+    /*width: 1000px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto;*/
 }
 
 .rectangle{
@@ -75,12 +75,12 @@ float: left;
 
 .title4{
       margin: 10px;
-      width: 420px;
-      height: 82px;
+      width: 480px;
+      height: 92px;
       background-color: #f55a00;
       text-align: center;
       font-size: 24px;
-      padding: 30px;
+      padding: 10px;
       line-height: 150%;
     }
 .title4:hover{
@@ -89,7 +89,7 @@ float: left;
 
 .title5{
       margin: 10px;
-      width: 430px;
+      width: 480px;
       height: 254px;
       background-color: #555555;
       text-align: center;
